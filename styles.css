@@ -1,0 +1,51 @@
+body
+{
+    background-color: rgb(78, 102, 114);
+    color: white;
+}
+.bg-light
+{
+    background-color: #acacac !important;
+
+}
+
+.nav-item::marker{
+    color: transparent;
+}
+.navbar-brand
+{
+    color: black !important;
+
+}
+
+.nav-link
+
+{
+    color:black
+    !important;
+}
+#erreur_inscription
+{
+    color: #e74c3c;
+    padding: 10px ;
+}
+table
+{
+    color:white;
+}
+#contenu_topic
+{
+    border-top: 2px solid #eee; padding: 10px 0
+}
+#reste_topic
+{
+    color: #CCC; font-size: 10px; text-align: right
+}
+#logo_site
+{
+    width:40%;
+}
+#footer
+{
+    color: black;
+}
