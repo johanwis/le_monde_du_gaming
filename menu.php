@@ -21,7 +21,7 @@
 <a class="nav-link" href="forum.php">forum</a>
                                         </li>
                                     <li class="nav-item">
-                                            <a class="nav-link" href="profil.php">Mon profil</a>&emsp;&emsp;&emsp;&emsp;&emsp;
+                                            <a class="nav-link" href="profil.php?id=<?php $_SESSION['id']?>">Mon profil</a>&emsp;&emsp;&emsp;&emsp;&emsp;
                                         </li>
                 <li class="nav-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <a class="nav-link" href="creer_topic.php">Crée un topic</a>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  mar. 19 mai 2020 à 20:02
+-- Généré le :  ven. 22 mai 2020 à 10:26
 -- Version du serveur :  5.7.17
 -- Version de PHP :  5.6.30
 
@@ -113,10 +113,16 @@ CREATE TABLE `topic_commentaire` (
 --
 
 INSERT INTO `topic_commentaire` (`id`, `id_topic`, `id_user`, `text`, `date_creation`) VALUES
-(1, 1, 2, 'Alors je te conseille le  ACER  Aspire 317-32-P5XJ. mais si tu peut rajouter un peut moins de 100€ du peut avoir le MSI GF63 Thin 9RCX-605XFR', '2020-05-18 03:08:06'),
+(1, 3, 2, 'Alors je te conseille le  ACER  Aspire 317-32-P5XJ. mais si tu peut rajouter un peut moins de 100€ du peut avoir le MSI GF63 Thin 9RCX-605XFR', '2020-05-18 03:08:06'),
 (2, 2, 2, 'je te conseille les uncharted qui sont un excellent jeux action aventure comme les \r\ntomb-raider il y a aussi horrizon zero dawn ', '2020-05-18 10:06:00'),
 (3, 4, 2, 'alors déjà il y a pour moi ça sera la xbox premier du nom car ça restera ma premier console que mon père à acheter pour la famille même si les graphisme ont vieilli ca restera ma premier console. Puis il y a la seconde que mon père a acheter aussi où j\'ai jouée jusqu\'à deux où trois ans que la ps4 et xbox one sont sortie ', '2020-05-18 15:24:00'),
-(4, 3, 2, 'wow pour avoir tout les accessoires faut il y aller car il de tout des accessoires pour le wii sport comme une fléchettes, où comme un boule de bowling, il y a un kart gonflable pour mario kart et il y a aussi la balance board pour le jeu wii fit et là il y a que 4 accessoires ', '2020-05-18 23:59:33');
+(4, 1, 2, 'wow pour avoir tout les accessoires faut il y aller car il de tout des accessoires pour le wii sport comme une fléchettes, où comme un boule de bowling, il y a un kart gonflable pour mario kart et il y a aussi la balance board pour le jeu wii fit et là il y a que 4 accessoires ', '2020-05-18 23:59:33'),
+(5, 6, 2, 'alors pour pouvoir jouer &agrave; valorent si tu a cr&eacute;e un compte riot alors lie ce compte &agrave; ton compte de twitch puis regarder des streamer qui joue &agrave; valorent et qui on le drop activ&eacute;e  et tu receveras un mail quand tu pourras acc&eacute;der au jeu et ensuite t&eacute;l&eacute;charge le jeu', '2020-05-21 06:26:57'),
+(6, 6, 2, 'voil&agrave; je pense avoir tu r&eacute;sumer', '2020-05-21 06:35:09'),
+(7, 6, 2, 'test', '2020-05-21 06:40:01'),
+(8, 5, 3, 'alors si je crois comprendre ce que tu dis si tu ach&eacute;ter un socle de recharge tu le pose dessus est &ccedil;a charge c\'est partique si tu as deux manettes', '2020-05-21 16:30:06'),
+(9, 5, 1, 'oui c\'est &ccedil;a', '2020-05-21 16:40:43'),
+(10, 5, 1, 'essai', '2020-05-21 16:51:24');
 
 --
 -- Index pour les tables déchargées
@@ -163,7 +169,7 @@ ALTER TABLE `forum`
 -- AUTO_INCREMENT pour la table `membres`
 --
 ALTER TABLE `membres`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT pour la table `topic`
 --
@@ -173,7 +179,7 @@ ALTER TABLE `topic`
 -- AUTO_INCREMENT pour la table `topic_commentaire`
 --
 ALTER TABLE `topic_commentaire`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;COMMIT;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

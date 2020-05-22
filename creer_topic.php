@@ -164,5 +164,6 @@ require_once "footer.php";
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
+<script src="konamicode.js"></script>
 </body>
 </html>

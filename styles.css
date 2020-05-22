@@ -49,3 +49,22 @@ table
 {
     color: black;
 }
+#commentaires
+{
+    color:white;
+}
+.titreprincipal
+{
+    color: red;
+    text-decoration: underline;
+}
+h1
+{
+    color: red;
+
+}
+h3
+{
+    color: red;
+    text-decoration: underline;
+}

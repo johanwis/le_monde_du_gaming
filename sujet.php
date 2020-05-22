@@ -39,20 +39,20 @@ include('bd/connexionDB.php'); // Fichier PHP contenant la connexion à votre BD
         <h3>sujet</h3>
         <div class="table-responsive">
           <table class="table table-striped">
-            <tr>
 
-              <th>Titre: </th>
-              <th>Crée le: </th>
-              <th>Écrit Par: </th>
-            </tr>
+
+              <th class="titreprincipal">Titre: </th>
+              <th class="titreprincipal">Crée le: </th>
+              <th class="titreprincipal">Écrit Par: </th>
+
             <?php
               foreach($req as $r){// Ici on va afficher tous nos enregistrements trouvés
               ?>  
               <tr>
                 <!-- On met un lien pour afficher le topic en entier -->
-                  <td><a href="topic.php?id=<?= $get_id?>/<?= $r['id']?>"><?= $r['titre'] ?></a></td>
-                  <td><?= $r['date_creation'] ?></td>
-                  <td><?= $r['pseudo'] ?></td>
+                  <td><a href="topic.php?id_forum=<?= $get_id?>&id_topic=<?= $r['id']?>"><?= $r['titre'] ?></a></td>
+                  <td class="titre"><?= $r['date_creation'] ?></td>
+                  <td class="titre"><?= $r['pseudo'] ?></td>
               </tr>   
                   <?php
               }
@@ -68,6 +68,8 @@ include('bd/connexionDB.php'); // Fichier PHP contenant la connexion à votre BD
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <script src="konamicode.js"></script>
 
   </body>
 </html>
